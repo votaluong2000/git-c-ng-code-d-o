@@ -88,6 +88,7 @@
         loading...
       </button>
       <button type="button" class="btn btn-primary">
+
         <span class="spinner-border spinner-border-sm"></span>
         loading...
       </button>
@@ -96,9 +97,9 @@
   </div>
   <!-- btn-group là nhóm thanh menu lại -->
   <div class="container">
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">jesus</button>
-      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+    <div class="btn-group ">
+      <button type="button" class="btn btn-primary ">jesus</button>
+      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
         <span class="caret"></span>
       </button>
       <div class="dropdown-menu">
@@ -112,20 +113,33 @@
   <!-- menu bằng dropdown-toggle -->
 
   <div class="btn-group-vertical">
-    <button type="button" class="btn btn-primary">luong</button>
-    <button type="button" class="btn btn-primary">vinh</button>
+    <div class="dropdown dropright btn-group">
+        <button type="button" class="btn btn-dark"> luong</button>
+    <button type="button" class="btn btn-dark dropdown-toggle " data-toggle="dropdown"><span class="caret"></span></button>
+    <div class="dropdown-menu">
+      <a href="#" class="dropdown-item">is</a>
+      <a href="#" class="dropdown-item">best</a>
+      <a href="#" class="dropdown-item">ok</a>
+    </div>
+    </div>
+    <button type="button" class="btn btn-primary ">vinh</button>
     <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+      <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
         hendsome
         <span class="caret"></span>
       </button>
       <div class="dropdown-menu">
-        <a href="#" class="dropdown-item">goodboy</a>
+        <div class="dropdown-header">tầng 1-2 deepweb</div>
+        <a href="#" class="dropdown-item" >goodboy</a>
         <a href="#" class="dropdown-item">big dick</a>
-        <a href="#" class="dropdown-item">rich</a>
+        <div class="dropdown-header">tầng 5 deepweb</div>
+        <div class="dropdown-divider"></div>
+        <a href="#" class="dropdown-item active">rich</a>
       </div>
     </div>
   </div>
+  <!-- dropdown-header là phần chú thích -->
+  <!-- dropdown-divider là chia vách ngăn  -->
   <!-- vertical là nằm dọc  -->
 
   <button class="btn btn-primary">
@@ -169,7 +183,7 @@
   <!-- breadcrumb gạch suyt -->
 
   <div class="list-group list-group-horizontal ">
-    <a href="#" class="list-group-item list-group-item-action active list-group-item-dark">Active item 
+    <a href="#" class="list-group-item list-group-item-action active list-group-item-dark">Active item
       <span class="badge badge-danger badge-pill">99</span>
     </a>
     <a href="#" class="list-group-item list-group-item-action">Item
@@ -182,9 +196,28 @@
   <br>
   <!-- list-group -->
   <!-- horizontal là xếp list thành hàng ngang -->
-   
-   
-  
+  <div class="row">
+    <div class="card bg-danger" style="width: 200px;" >
+      <div class="card-body text-center" >
+        <h4 class="card-title">Title</h4>
+        <p class="card-text">Text</p>
+      </div>
+    </div>
+  <div class="card-deck ">
+    <div class="card bg-dark" style="height: 300px;">
+      <div class="card-body text-center">
+        <h4 class="card-title">Title</h4>
+        <p class="card-text">Text</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- lệnh card  -->
+  <br>
+
+
+
+
 
 
 
